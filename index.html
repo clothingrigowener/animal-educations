@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Kingdom</title>
+    <link rel="stylesheet" href="styles.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4717584843840729" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Animal Kingdom</h1>
+        <nav>
+            <ul>
+                <li><a href="#mammals">Mammals</a></li>
+                <li><a href="#birds">Birds</a></li>
+                <li><a href="#reptiles">Reptiles</a></li>
+            </ul>
+        </nav>
+        <button id="darkModeToggle">Toggle Dark Mode</button>
+    </header>
+
+    <div class="adsense">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-4717584843840729"
+             data-ad-slot="4601730265"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+
+    <main>
+        <section id="mammals">
+            <h2>Mammals</h2>
+            <div class="animal">
+                <h3>Lion</h3>
+                <p>The lion is a species in the family Felidae and a member of the genus Panthera. It is one of the largest cats in the world.</p>
+            </div>
+            <div class="animal">
+                <h3>Elephant</h3>
+                <p>Elephants are the largest land animals on Earth, known for their intelligence and strong social bonds.</p>
+            </div>
+        </section>
+
+        <div class="adsense">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-4717584843840729"
+                 data-ad-slot="4601730265"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+        <section id="birds">
+            <h2>Birds</h2>
+            <div class="animal">
+                <h3>Eagle</h3>
+                <p>Eagles are large birds of prey known for their keen vision and powerful soaring flight.</p>
+            </div>
+            <div class="animal">
+                <h3>Parrot</h3>
+                <p>Parrots are known for their bright colors and ability to mimic human speech.</p>
+            </div>
+        </section>
+
+        <div class="adsense">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-4717584843840729"
+                 data-ad-slot="4601730265"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+        <section id="reptiles">
+            <h2>Reptiles</h2>
+            <div class="animal">
+                <h3>Crocodile</h3>
+                <p>Crocodiles are large aquatic reptiles that live throughout the tropics in Africa, Asia, the Americas, and Australia.</p>
+            </div>
+            <div class="animal">
+                <h3>Snake</h3>
+                <p>Snakes are elongated, legless reptiles that are found in a variety of habitats, known for their unique method of locomotion.</p>
+            </div>
+        </section>
+    </main>
+
+    <div class="adsense">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-4717584843840729"
+             data-ad-slot="4601730265"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Animal Kingdom. All Rights Reserved.</p>
+    </footer>
+
+    <div class="cookie-consent" id="cookieConsent">
+        <div class="cookie-content">
+            <h2>Cookie Consent</h2>
+            <p>We use cookies to enhance your experience on our website. By continuing to browse, you agree to our use of cookies.</p>
+            <button id="acceptCookies">Accept</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('acceptCookies').onclick = function() {
+            document.getElementById('cookieConsent').style.display = 'none';
+        };
+
+        // Dark Mode Toggle Functionality
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        darkModeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>
